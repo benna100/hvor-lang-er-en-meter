@@ -1,0 +1,67 @@
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #f9fbfd;
+    color: #383838;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  main {
+    max-width: 700px;
+    margin: 0px auto;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 700px) {
+    main {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+    }
+  }
+  
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
+  @media screen and (max-width: 700px) {
+    h1 {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+  
+  strong {
+    background-color: #FFE0CE;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+section.meter-definition span {
+    margin: 0 auto;
+  font-size: 2rem;
+  line-height: 4rem;
+
+}
+  
+
+  section.keep-distance {
+      margin: 56px 0;
+      text-decoration: underline;
+      font-weight: bold;
+      text-align: center;
+      font-size: 2rem;
+      
+  }
+
+  .made-by {
+      font-size: 1.3rem;
+  }
+  
